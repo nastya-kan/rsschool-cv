@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    min-height: 100vh font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #123a2b;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.my-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid bisque;
+    object-fit: cover;
+}
+
+.nav-link {
+    padding: 15px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: #36ae82;
+}
+
+.header {
+    background-color: bisque;
+}
+
+.section-profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #123a2b;
+}
+
+.h1 {
+    color: bisque;
+}
+
+.h3 {
+    color: bisque;
+}
+
+.section-contacts {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-right: 35px;
+    border-right: 5px solid #123a2b;
+}
+
+.section-summary {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-left: 35px;
+    border-left: 5px solid #123a2b;
+}
+
+.section-skills {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-right: 35px;
+    border-right: 5px solid #123a2b;
+}
+
+.section-projects {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-left: 35px;
+    border-left: 5px solid #123a2b;
+}
+
+.section-education {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-right: 35px;
+    border-right: 5px solid #123a2b;
+}
+
+.section-code {
+    width: calc(50% - 20px);
+    background-color: bisque;
+    padding: 20px;
+    padding-left: 35px;
+    border-left: 5px solid #123a2b;
+}
+
+.section-english {
+    width: 100%;
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid #123a2b;
+}
+
+.footer {
+    background-color: #123a2b;
+    padding: 30px;
+    color: bisque;
+
+}
+
+.link-footer {
+    color: bisque;
+    padding: 0 30px;
+}
+
+.rs-logo {
+    width: 121px;
+    height: 25px;
+}
